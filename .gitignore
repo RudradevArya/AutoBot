@@ -1,0 +1,11 @@
+# PyInstaller output directories
+build/
+dist/
+*.spec
+
+# Virtual environment directory
+myenv/
+
+
+#extras
+automate_commit.py
