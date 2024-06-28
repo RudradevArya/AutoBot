@@ -1,0 +1,13 @@
+pip install GitPython
+
+python automate_commit.py
+pip install gitpython
+
+pip install pyinstaller
+
+
+ python -m venv myenv   
+myenv\Scripts\activate 
+ pip install pyinstaller
+ python -m PyInstaller --onefile --windowed tkinet.py ////or
+ python -m PyInstaller --onefile --windowed --hidden-import=git tkinet.py
